@@ -365,7 +365,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: rgba($base-color-hover, 0.8);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -376,7 +376,7 @@ footer {
     z-index: 10;
     top: 60%;
     left: 50%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -35%);
     text-align  : center;
 
     h1, h2 {
@@ -408,15 +408,27 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    // mask-image: url('../images/Akanelogo.svg');
-    // clip-path: url('../images/Akanelogo.svg'); 
-    mask-image: 	linear-gradient(black, black),
-	url('../images/Akanelogo.svg');
-    mask-composite: exclude;
+    background: url(../images/lead-bg.jpg);
+    mask-image: url(../images/AkaneLogoMask.svg);
     mask-repeat: no-repeat;
-    mask-position: center,bottom    ;
-    background: rgba($base-color-hover, 0.8);
+    mask-position: center bottom;
+    background-size: cover;
+    padding: 15px;
+    overflow: hidden;
     z-index: 1;
+}
+#lead-bg{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../images/lead-bg.jpg);
+    background-size: cover;
+    padding: 15px;
+    overflow: hidden;
+    z-index: -1;
 }
 .glow {
     // color: white;
