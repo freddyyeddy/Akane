@@ -428,7 +428,8 @@ footer {
     background-size: cover;
     padding: 15px;
     overflow: hidden;
-    z-index: -1;
+    opacity: 20%;
+    z-index: 1;
 }
 .glow {
     // color: white;
