@@ -21,7 +21,7 @@
         3. Global Styles
         4. Lead Styles
         5. About Styles
-        6. Experience Styles
+        6. history Styles
         7. Education Styles
         8. Project Styles
         9. Skills Styles
@@ -111,7 +111,7 @@ body {
 
 // No JS styles
 .no-js {
-    #experience-timeline {
+    #history-timeline {
         > div {
             background: $background;
             padding: 10px;
@@ -512,11 +512,11 @@ footer {
 
 /*
     --------------------------------
-    ----- 6. Experience Styles -----
+    ----- 6. history Styles -----
     --------------------------------
 */
 
-#experience {
+#history {
     padding: 50px 15px;
     text-align: center;
     border-bottom: 1px solid $border;
@@ -526,7 +526,7 @@ footer {
     }
 }
 
-#experience-timeline {
+#history-timeline {
     margin: 30px auto 0 auto;
     position: relative;
     max-width: 1000px;
@@ -895,7 +895,7 @@ footer {
 // Collapse timeline
 @media only screen and (max-width: 750px) {
 
-    #experience-timeline {
+    #history-timeline {
         &:before, &:after {
             left: 23px;
         }

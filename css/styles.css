@@ -21,7 +21,7 @@
         3. Global Styles
         4. Lead Styles
         5. About Styles
-        6. Experience Styles
+        6. history Styles
         7. Education Styles
         8. Project Styles
         9. Skills Styles
@@ -65,31 +65,31 @@ body.active {
   z-index: -1;
 }
 
-.no-js #experience-timeline > div {
+.no-js #history-timeline > div {
   background: #344D67;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #F3ECB0;
 }
-.no-js #experience-timeline > div h3 {
+.no-js #history-timeline > div h3 {
   font-size: 1.5em;
   font-weight: 300;
   color: #374054;
   display: inline-block;
   margin: 0;
 }
-.no-js #experience-timeline > div h4 {
+.no-js #history-timeline > div h4 {
   font-size: 1.2em;
   font-weight: 300;
   color: #7e8890;
   margin: 0 0 15px 0;
 }
-.no-js #experience-timeline > div p {
+.no-js #history-timeline > div p {
   color: #74808a;
   font-size: 0.9em;
   margin: 0;
 }
-.no-js #experience-timeline:before, .no-js #experience-timeline:after {
+.no-js #history-timeline:before, .no-js #history-timeline:after {
   content: none;
 }
 
@@ -418,24 +418,24 @@ footer {
 
 /*
     --------------------------------
-    ----- 6. Experience Styles -----
+    ----- 6. history Styles -----
     --------------------------------
 */
-#experience {
+#history {
   padding: 50px 15px;
   text-align: center;
   border-bottom: 1px solid #F3ECB0;
 }
-#experience h2 {
+#history h2 {
   color: #374054;
 }
 
-#experience-timeline {
+#history-timeline {
   margin: 30px auto 0 auto;
   position: relative;
   max-width: 1000px;
 }
-#experience-timeline:before {
+#history-timeline:before {
   position: absolute;
   content: "";
   top: 0;
@@ -447,7 +447,7 @@ footer {
   background: #6ECCAF;
   z-index: 0;
 }
-#experience-timeline:after {
+#history-timeline:after {
   position: absolute;
   content: "";
   width: 3px;
@@ -771,7 +771,7 @@ footer {
     -----------------------------
 */
 @media only screen and (max-width: 750px) {
-  #experience-timeline:before, #experience-timeline:after {
+  #history-timeline:before, #history-timeline:after {
     left: 23px;
   }
   .vtimeline-date {
