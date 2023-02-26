@@ -23,7 +23,7 @@
         5. About Styles
         6. history Styles
         7. Education Styles
-        8. Project Styles
+        8. disclaimer Styles
         9. Skills Styles
         10. Contact Styles
         11. Optional Section Styles
@@ -444,7 +444,15 @@ footer {
   
     }
     text-shadow: $value;
+    font-size: 8em !important;
+    
   }
+.glow::after{
+    content: '\00a9';
+    font-family: verdana;
+    font-size: .3em;
+    vertical-align: text-top;
+}
 //     text-shadow: 0 0 10px $base-color, 0 0 20px $base-color, 0 0 30px $background-alt, 0 0 40px $background-alt, 0 0 50px $background-alt, 0 0 60px $background-alt, 0 0 70px $background-alt;
 //   }
 
@@ -677,7 +685,7 @@ footer {
 
 /*
     -------------------------------
-    ----- 8. Project Styles -----
+    ----- 8. disclaimer Styles -----
     -------------------------------
 */
 $disclaimerSize : 15em;
@@ -729,7 +737,7 @@ $disclaimerSize : 15em;
 }
 
 .no-image {
-    .project-info {
+    .disclaimer-info {
         position: relative;
         margin: 0;
         padding: 30px 15px;
@@ -737,7 +745,7 @@ $disclaimerSize : 15em;
     }
 }
 
-#more-projects {
+#more-disclaimers {
     display: none;
 }
 
@@ -936,9 +944,10 @@ $disclaimerSize : 15em;
     #lead-content {
         position: relative;
         transform: translate(-50%, 60%);
+        font-size: 1vw;
 
         h1 {
-            font-size: 3em;
+            // font-size: 3em;
         }
 
         h2 {
@@ -987,7 +996,7 @@ $disclaimerSize : 15em;
 
     #lead-content {
         h1 {
-            font-size: 2em;
+            // font-size: 2em;
         }
 
         h2 {
@@ -1009,11 +1018,11 @@ $disclaimerSize : 15em;
         }
     }
 
-    .project-image {
+    .disclaimer-image {
         display: none;
     }
 
-    .project-info {
+    .disclaimer-info {
         position: relative;
         margin: 0;
         padding: 30px 15px;
@@ -1036,7 +1045,7 @@ $disclaimerSize : 15em;
 
     #lead-content {
         h1 {
-            font-size: 1.5em;
+            // font-size: 1.5em;
         }
 
         h2 {

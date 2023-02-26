@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
     Real Akane Web Page Built By Adam Bordelon
 //  Originated From:
@@ -23,7 +24,7 @@
         5. About Styles
         6. history Styles
         7. Education Styles
-        8. Project Styles
+        8. disclaimer Styles
         9. Skills Styles
         10. Contact Styles
         11. Optional Section Styles
@@ -360,6 +361,14 @@ footer {
 
 .glow {
   text-shadow: 0 0 1px rgba(148, 217, 196, 0.99), 0 0 2px rgba(148, 217, 196, 0.98), 0 0 3px rgba(148, 217, 196, 0.97), 0 0 4px rgba(148, 217, 196, 0.96), 0 0 5px rgba(148, 217, 196, 0.95), 0 0 6px rgba(148, 217, 196, 0.94), 0 0 7px rgba(148, 217, 196, 0.93), 0 0 8px rgba(148, 217, 196, 0.92), 0 0 9px rgba(148, 217, 196, 0.91), 0 0 10px rgba(148, 217, 196, 0.9);
+  font-size: 8em !important;
+}
+
+.glow::after {
+  content: "©";
+  font-family: verdana;
+  font-size: 0.3em;
+  vertical-align: text-top;
 }
 
 #lead-down {
@@ -568,7 +577,7 @@ footer {
 
 /*
     -------------------------------
-    ----- 8. Project Styles -----
+    ----- 8. disclaimer Styles -----
     -------------------------------
 */
 #disclaimer {
@@ -615,14 +624,14 @@ footer {
   font-size: 0.9em;
 }
 
-.no-image .project-info {
+.no-image .disclaimer-info {
   position: relative;
   margin: 0;
   padding: 30px 15px;
   transform: none;
 }
 
-#more-projects {
+#more-disclaimers {
   display: none;
 }
 
@@ -801,9 +810,7 @@ footer {
   #lead-content {
     position: relative;
     transform: translate(-50%, 60%);
-  }
-  #lead-content h1 {
-    font-size: 3em;
+    font-size: 1vw;
   }
   #lead-content h2 {
     font-size: 1.75em;
@@ -838,9 +845,6 @@ footer {
     display: block;
     margin-bottom: 10px;
   }
-  #lead-content h1 {
-    font-size: 2em;
-  }
   #lead-content h2 {
     font-size: 1.3em;
   }
@@ -853,10 +857,10 @@ footer {
   .education-block h3, .education-block span {
     float: none;
   }
-  .project-image {
+  .disclaimer-image {
     display: none;
   }
-  .project-info {
+  .disclaimer-info {
     position: relative;
     margin: 0;
     padding: 30px 15px;
@@ -871,9 +875,6 @@ footer {
   }
 }
 @media only screen and (max-width: 480px) {
-  #lead-content h1 {
-    font-size: 1.5em;
-  }
   #lead-content h2 {
     font-size: 1em;
   }
