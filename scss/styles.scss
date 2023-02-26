@@ -680,8 +680,8 @@ footer {
     ----- 8. Project Styles -----
     -------------------------------
 */
-
-#projects {
+$disclaimerSize : 15em;
+#disclaimer {
     padding: 50px 15px;
     border-bottom: 1px solid $border;
     text-align: center;
@@ -692,7 +692,7 @@ footer {
     }
 }
 
-.project {
+.disclaimer {
     position: relative;
     max-width: 900px;
     margin: 0 auto 30px auto;
@@ -701,15 +701,17 @@ footer {
     border-radius: 4px;
 }
 
-.project-image {
+.disclaimer-image {
     float: left;
+    width: $disclaimerSize;
+    height: $disclaimerSize;
 }
 
-.project-info {
+.disclaimer-info {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 300px;
+    margin-left: $disclaimerSize;
     padding: 15px;
 
     h3 {

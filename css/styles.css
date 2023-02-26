@@ -571,17 +571,17 @@ footer {
     ----- 8. Project Styles -----
     -------------------------------
 */
-#projects {
+#disclaimer {
   padding: 50px 15px;
   border-bottom: 1px solid #F3ECB0;
   text-align: center;
 }
-#projects h2 {
+#disclaimer h2 {
   color: #374054;
   margin-bottom: 50px;
 }
 
-.project {
+.disclaimer {
   position: relative;
   max-width: 900px;
   margin: 0 auto 30px auto;
@@ -590,24 +590,26 @@ footer {
   border-radius: 4px;
 }
 
-.project-image {
+.disclaimer-image {
   float: left;
+  width: 15em;
+  height: 15em;
 }
 
-.project-info {
+.disclaimer-info {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  margin-left: 300px;
+  margin-left: 15em;
   padding: 15px;
 }
-.project-info h3 {
+.disclaimer-info h3 {
   font-size: 1.5em;
   font-weight: 300;
   color: #374054;
   margin: 0 0 15px 0;
 }
-.project-info p {
+.disclaimer-info p {
   color: #74808a;
   margin: 0 0 15px 0;
   font-size: 0.9em;
